@@ -1,0 +1,73 @@
+# .gitignore for Ledger Flow
+
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.packages
+.pub-cache/
+.pub/
+/pubspec.lock
+
+# iOS
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/Podfile.lock
+.ios/
+
+# Android
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+android/.gradle/
+android/build/
+android/captures/
+.android/
+
+# Web
+web/flutter_service_worker.js
+
+# Node/Backend
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.*.local
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+*.iws
+*.ipr
+*.iml
+.DS_Store
+Thumbs.db
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+config/firebase-key.json
+
+# Environment
+.env
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
